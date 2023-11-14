@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run get_data_cyclocross.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/cyclocross/get_data_cyclocross.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
