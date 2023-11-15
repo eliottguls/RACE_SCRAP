@@ -2,6 +2,8 @@ import pandas as pd
 import psycopg2
 import json
 
+from google.auth.transport.requests import Request
+
 class ServicePostgres:
     def __init__(self, conf):
         self.conf = conf
@@ -27,7 +29,7 @@ class ServicePostgres:
         return df
 
 def get_config():
-    with open("O:\GET_RACE\conf\conf.json", "r") as f:
+    with open("C:\Users\eliot\OneDrive - Université de Rennes 1\Bureau\GET_RACE\conf\conf.json", "r") as f:
         return json.load(f)
 
 

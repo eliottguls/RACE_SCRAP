@@ -5,7 +5,7 @@
             "name": "Run get_data_cyclocross.py",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/quickstart.py",
+            "program": "${workspaceFolder}/cyclocross/get_send_event.py",
             "console": "integratedTerminal"
         }
     ]
