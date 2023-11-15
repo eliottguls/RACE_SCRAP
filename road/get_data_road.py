@@ -43,7 +43,7 @@ def get_all_url_calendar(discipline):
         return None
 
 
-def et_data():
+def get_and_transform_data():
     # Get all url
     url = get_all_url_calendar('route')
 
@@ -157,8 +157,3 @@ def et_data():
             print(f"Échec de la requête : {response.status_code}")
     return df_data
 
-
-if __name__ == "__main__":
-    df_data = et_data()
-    df_data.to_csv('df_data.csv', index=False)
-    print(df_data)
